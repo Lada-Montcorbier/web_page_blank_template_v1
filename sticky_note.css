@@ -1,0 +1,25 @@
+.board {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+
+div.board:nth-child(even) {
+  transform: rotate(0deg);
+  position: relative;
+  top: 5px;
+}
+
+div.board:nth-child(3) {
+  transform: rotate(-3deg);
+  position: relative;
+  top: -5px;
+}
+
+
+div.board:nth-child(5) {
+  transform: rotate(5deg);
+  position: relative;
+  top: -10px;
+}

@@ -1,0 +1,1 @@
+# web_page_blank_template_v1
